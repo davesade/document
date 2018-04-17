@@ -1,4 +1,4 @@
-## New ETI concept
+## New ETI manual
 
 We love ETI.
 
