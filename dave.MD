@@ -1,4 +1,4 @@
-## New ETI manual
+## New ETI manual document
 
 We love ETI.
 
