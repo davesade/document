@@ -10,7 +10,7 @@ Depending on your settings, `###` are still acting as a sub-chapter, but it is n
 ## Examples of MarkDown syntax
 MarkDown itself is very simple.  
 `*italic*` will result *italic*.  
-`**bold**` will result **bold**.
+`**bold**` will result **bold**.  
 Use `>` to create quotes like this:  
 > Some famous quote.  
 > Written by:  
