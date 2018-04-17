@@ -8,4 +8,4 @@ Try it: [Google](www.google.com)
 
 Also very easy, try this: `[Link to picture document](pic.md)`.  
 [Link to picture document](pic.md)  
-Note here, that I can link to any *MarkDown file* in this repository.  
+Note here, that you can link to any *MarkDown file* in this repository.  
