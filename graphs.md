@@ -1,6 +1,6 @@
 ## Inserting graphs into my document
 
-This I would consider as *slightly* advanced, because now we leave comfortable environment of MarkDown syntax. The tool we use is called [Docsify](https://docsify.js.org/#/) and it does support numerous plugins. Here I'm using simple plugin called [Docsify echarts plugin](https://github.com/xiguaxigua/docsify-echarts-plugin). It's not so hard to implement it (have a look at *index.html* file, where scripts are defined).  
+This I would consider as *slightly* advanced, because now we leave comfortable environment of MarkDown syntax. The tool we use is called [Docsify](https://docsify.js.org/#/) and it does support numerous plugins. Here I'm using simple plugin called [Docsify echarts plugin](https://github.com/xiguaxigua/docsify-echarts-plugin). It's not so hard to implement it (have a look at `index.html` file, where scripts are defined).  
 Result could then look like this:  
 
 ```chart
@@ -33,4 +33,4 @@ Result could then look like this:
 }
 ```
 
-In the repository, have a look at file *graphs.md*, you will see, that actual graphs is saved in JSON format. That is beyond MarkDown knowledge, but it's good to know about it, right?  
+In the repository, have a look at file `graphs.md`, you will see, that actual graphs is saved in JSON format. That is beyond MarkDown knowledge, but it's good to know about it, right?  
