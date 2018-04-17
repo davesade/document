@@ -1,4 +1,4 @@
-## How do I insert links?
+### How do I insert links?
 
 Very easy in MarkDown: just type `[link itself](URL of the link)`.  
 For example, `[Google](www.google.com)` will create a link to `Google.com`.  

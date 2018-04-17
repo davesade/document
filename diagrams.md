@@ -1,7 +1,7 @@
-## Flowcharts etc.
+### Diagrams and other flowcharts
 
 Native Docsify cannot render diagrams by hand. You could add some pictures, but that should be used only when no other options is available. Similar to [graphs](graphs.md), we can inject some special formatted characters to call plugin for diagrams and flowcharts.  
-Docsify does support so called [Mermaid](https://mermaidjs.github.io/), so as long you configure this plugin via `index.html` file, you can *describe* your chart like this:  
+Docsify does support [Mermaid](https://mermaidjs.github.io/) syntax (it's like UML kinda), so as long you configure this plugin via `index.html` file, you can *describe* your chart like this:  
 
 ```
 graph TD;
@@ -20,6 +20,8 @@ graph TD;
     B-->D;
     C-->D;
 </div>
+
+!> **If for some reason you don't see diagrams as expected** please refresh the page. There seems to be some bug I can't yet point my finger on :).
 
 Or you can add more complex flow charts like this:
 

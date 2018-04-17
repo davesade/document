@@ -7,7 +7,7 @@ This way you can utilise [GitHub Workflow](https://guides.github.com/introductio
 
 ## What
 
-This whole documentation page is described with MarkDown syntax, using some external libraries.  
+This whole documentation page is described with [MarkDown](https://en.wikipedia.org/wiki/Markdown) syntax, using some external libraries.  
 Main renderer is [Docsify](https://docsify.js.org), but as you will see in other chapters (see sidebar menu), we inject certain libraries to enable charts, graphs and mathematical equations.  
 There are many alternatives to Docsify, using native Jekyll or whatever.  
 Final result is rendered as static webpage, using [GitHub pages](https://pages.github.com/) for hosting the result.  

@@ -2,10 +2,13 @@
 To create main description, you simply use `#` to mark down initial name of the chapter.
 
 ## Second level
-As you can see in the sidebar, lines beginning with `##` are automatically populated to create list of contents.
+As you can see in the sidebar, lines beginning with `##` are considered as chapters and automatically populated to create list of contents.  
 
 ### Third level
-Depending on your settings, `###` are still acting as a sub-chapter, but it is not shown in sidebar. Have a look at `index.html` file, line 15. This is where you configure, how many levels will be detected by sidebar.
+Depending on your settings, `###` are still acting as a sub-chapter, but it is not shown in sidebar. Have a look at `index.html` file. This is where you configure, how many levels will be displayed by sidebar.  
+
+#### Fourth level
+Does it even exists? :)
 
 ## Examples of MarkDown syntax
 MarkDown itself is very simple.  
@@ -33,7 +36,7 @@ Alternatively, you can create numbered lists simply by putting numbers on start 
 4. Fourth
 5. Fifth
 
-## Tables and advanced
+## Tables
 
 Simple tables are also possible in MarkDown, see below:  
 
@@ -43,7 +46,19 @@ Simple tables are also possible in MarkDown, see below:
 | Middle column is | centered      |   $12 |
 | I like beer      | and nuts      |    $1 |
 
+## Other examples
+
 There are much more to learn, there are also some flavours of MarkDown (ie. [Github flavoured MarkDown]()).  
+
+!> **Time** is money!
+
+?> *TODO* list
+
+* [x] first
+  * [x] one
+  * [ ] two
+  * [ ] three
+* [x] second
 
 Please continue with sidebar table of contents to explore more options.  
 
