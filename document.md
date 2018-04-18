@@ -48,7 +48,7 @@ Simple tables are also possible in MarkDown, see below:
 
 ## Other examples
 
-There are much more to learn, there are also some flavours of MarkDown (ie. [Github flavoured MarkDown]()).  
+There is much more to learn! For example, there are also some flavours of MarkDown (ie. [Github flavoured MarkDown]()), allowing you to do more. Figure out by our own, how the source code of following examples looks like:  
 
 !> **Time** is money!
 
