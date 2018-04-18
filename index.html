@@ -12,7 +12,7 @@
   <div id="app"></div>
   <script src="//cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
   <script>
-  mermaid.initialize({startOnLoad:false});
+    mermaid.initialize({startOnLoad:false});
     window.$docsify = {
       name: 'Documentation demo',
       repo: 'https://github.com/do-team/document',
@@ -29,8 +29,15 @@
             return this.origin.code.apply(this, arguments);
           }
         }
-      }
-  }
+      },
+      plugins: [
+        function (hook, vm) {
+          hook.doneEach(function() {
+            MathJax.Hub.Queue(["Typeset",MathJax.Hub]);
+          })
+        }
+      ]
+    }
   </script>
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/echarts@latest/dist/echarts.min.js"></script>
