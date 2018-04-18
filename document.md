@@ -46,6 +46,16 @@ Simple tables are also possible in MarkDown, see below:
 | Middle column is | centered      |   $12 |
 | I like beer      | and nuts      |    $1 |
 
+And the source code looks like this:  
+
+```
+| Tables           | Are           | Cool  |
+| ---------------- |:-------------:| -----:|
+| Last column is   | right-aligned | $1600 |
+| Middle column is | centered      |   $12 |
+| I like beer      | and nuts      |    $1 |
+```
+
 ## Other examples
 
 There is much more to learn! For example, there are also some flavours of MarkDown (ie. [Github flavoured MarkDown]()), allowing you to do more. Figure out by our own, how the source code of following examples looks like:  
