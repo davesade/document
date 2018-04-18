@@ -13,13 +13,13 @@ graph TD;
 
 Which will produce following output:  
 
-<div class="mermaid">
+```mermaid
 graph TD;
     A-->B;
     A-->C;
     B-->D;
     C-->D;
-</div>
+```
 
 !> **If for some reason you don't see diagrams as expected** please refresh the page. There seems to be some bug I can't yet point my finger on :).
 
@@ -39,7 +39,7 @@ sequenceDiagram
 
 Resulting following sequence diagram:  
 
-<div class="mermaid">
+```mermaid
 sequenceDiagram
     Alice ->> Bob: Hello Bob, how are you?
     Bob-->>John: How about you John?
@@ -49,7 +49,7 @@ sequenceDiagram
 
     Bob-->Alice: Checking with John...
     Alice->John: Yes... John, how are you?
-</div>
+```
 
 And why stop here? Mermaid can also do Gantt diagrams. Again, the source code:  
 ```
@@ -66,7 +66,7 @@ gantt
 
 And the result:  
 
-<div class="mermaid">
+```mermaid
 gantt
     title A Gantt Diagram
     dateFormat  YYYY-MM-DD
@@ -76,7 +76,7 @@ gantt
     section Another
     Task in sec      :2014-01-12  , 12d
     another task      : 24d
-</div>
+```
 
 ... and ALL of that is actually a source code. However, we left convenient waters of simple MarkDown syntax, so consider this as advanced fancy stuff :).  
 And again, checkout the file *diagrams.md* to see real text content of the file you just see with your browser.  
