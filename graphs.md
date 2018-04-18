@@ -1,6 +1,6 @@
 ### Inserting graphs into our document
 
-This I would consider as *slightly* advanced, because now we leave comfortable environment of MarkDown syntax. The tool we use is called [Docsify](https://docsify.js.org/#/) and it does support numerous plugins. Here I'm using simple plugin called [Docsify echarts plugin](https://github.com/xiguaxigua/docsify-echarts-plugin). It's not so hard to implement it (have a look at `index.html` file, where we simple reference URL with a library and nothing more).  
+This can be considered as *slightly* advanced, because now we leave comfortable environment of MarkDown syntax. The tool we use is called [Docsify](https://docsify.js.org/#/) and it does support numerous plugins. Here I'm using simple plugin called [Docsify echarts plugin](https://github.com/xiguaxigua/docsify-echarts-plugin). It's not so hard to implement it (have a look at `index.html` file, where we simple reference URL with a library and nothing more).  
 
 You create appealing graphs like this:    
 
