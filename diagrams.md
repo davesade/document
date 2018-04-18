@@ -21,8 +21,6 @@ graph TD;
     C-->D;
 ```
 
-!> **If for some reason you don't see diagrams as expected** please refresh the page. There seems to be some bug I can't yet point my finger on :).
-
 Or you can add more complex flow charts like this:
 
 ```
