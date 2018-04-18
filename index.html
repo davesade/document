@@ -10,19 +10,31 @@
 </head>
 <body>
   <div id="app"></div>
+  <script src="//cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
   <script>
-  window.$docsify = {
-    name: 'Documentation demo',
-    repo: 'https://github.com/do-team/document',
-    themeColor: '#3F51B5',
-    loadSidebar: true,
-    subMaxLevel: 2
+  mermaid.initialize({startOnLoad:false});
+    window.$docsify = {
+      name: 'Documentation demo',
+      repo: 'https://github.com/do-team/document',
+      loadSidebar: true,
+      subMaxLevel: 2,
+      markdown: {
+        renderer: {
+          code: function(code, lang) {
+            if (lang === "mermaid") {
+              return (
+                '<div class="mermaid">' + mermaid.render(lang, code) + "</div>"
+              );
+            }
+            return this.origin.code.apply(this, arguments);
+          }
+        }
+      }
   }
   </script>
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/echarts@latest/dist/echarts.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify-echarts-plugin/lib/index.min.js"></script>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_CHTML' async></script>
-  <script src="//cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js" async></script>
 </body>
 </html>
