@@ -1,6 +1,6 @@
 # Documentation demo
 
-If you see this README.md file in GitHub website, please click directly on [GitHub pages](https://do-team.github.io/document/#/) of this project, so you can see it in action, rendered in all it's beauty. However, via GitHub website, you can check real source code of these files simply by browsing the repository. For example, `index.html` is stored  [here](https://github.com/do-team/document/blob/master/index.html).
+If you see this `README.md` file in GitHub website, please click directly on [GitHub pages](https://do-team.github.io/document/#/) of this project, so you can see it in action, rendered in all it's beauty. However, via GitHub website, you can check real source code of these files simply by browsing the repository. For example, `index.html` is stored  [here](https://github.com/do-team/document/blob/master/index.html).
 
 !> **This document is mobile ready!** Try opening [the page](https://do-team.github.io/document/#/) in your cellphone!
 
@@ -8,7 +8,7 @@ If you see this README.md file in GitHub website, please click directly on [GitH
 
 ## Why
 
-This repository serves as an example of fictitious documentation, stored in form of the source code (mainly MarkDown syntax) in GitHub.  
+[This repository](https://github.com/do-team/document/) serves as an example of fictitious documentation, stored in form of the source code (mainly MarkDown syntax) in GitHub.  
 This way you can utilise [GitHub Workflow](https://guides.github.com/introduction/flow/) process to control changes over various types of documentation. Workflow itself is capable to replace existing approval tools (ie. Alfresco, EEPR etc.), but to figure out, how to "translate" your current work into form of the source code is the main challenge here.  
 
 ## What
