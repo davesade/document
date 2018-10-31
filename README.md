@@ -1,4 +1,4 @@
-# Documentation demo HELLO WORLD
+# Documentation demo
 
 If you see this `README.md` file in GitHub website, please click directly on [GitHub pages](https://do-team.github.io/document/#/) of this project, so you can see it in action, rendered in all it's beauty. However, via GitHub website, you can check real source code of these files simply by browsing the repository. For example, `index.html` is stored  [here](https://github.com/do-team/document/blob/master/index.html).
 

@@ -20,3 +20,5 @@ And again the source code:
 ```
 \sigma = \sqrt{ \frac{1}{N} \sum_{i=1}^N (x_i -\mu)^2}
 ```
+
+## Do you like my math?
